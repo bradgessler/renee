@@ -1,0 +1,6 @@
+--output-dir ../../renee-site/public/doc/stream
+--readme README.md
+--no-private
+--title Renee Stream
+--markup markdown
+'lib/**/*.rb'

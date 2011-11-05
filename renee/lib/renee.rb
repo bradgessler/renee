@@ -1,5 +1,6 @@
 require 'renee_core'
 require 'renee_render'
+require 'renee_streaming'
 
 # Method for creating new Renee applications.
 # @see http://reneerb.com
@@ -17,5 +18,6 @@ module Renee
   # implementations.
   class Application < Core
     include Renee::Render
+    include Renee::Streaming
   end
 end

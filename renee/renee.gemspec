@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # TODO fix these deps
-  %w[core render].each do |name|
+  %w[core render streaming].each do |name|
     s.add_runtime_dependency "renee-#{name}", "= #{Renee::VERSION}"
   end
   s.add_development_dependency 'minitest', "~> 2.6.1"
